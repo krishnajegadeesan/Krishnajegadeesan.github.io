@@ -4,7 +4,7 @@
 /* ------------------------------------------------------------- */
 
 :root {
-	--tt-main-bg-color: #0a0a0a; /* Change the template background color here. */
+	--tt-main-bg-color: #1F3337;; /* Change the template background color here. */
 	--tt-main-color: #1F3337; /* Change the template main color here. */
 }
 
@@ -38,10 +38,10 @@ body {
 	overflow-x: hidden;
 }
 .bg-text{
-	background-color: #19272A;
+	background-color: #fff;
 }
 .bg-one{
-background-color: #1F3337;
+background-color: #fff;
 }
 .ropo{
 	font-family: begum;
@@ -51,7 +51,39 @@ background-color: #1F3337;
 .muli{
 	font-family:muli;
 	font-size: 14px;
-	color: #FFFFFF;
+	color: #000;
+}
+.product-details{
+color: black;
+font-family:muli;
+font-size: 14px;
+}
+.product-details .detail{
+	margin-bottom: 10px !important;
+}
+.product-details .price{
+	margin: 0px !important;
+	font-size: 20px;
+	font-weight: 600;
+	
+	
+}
+.product-details .btn-con{
+	margin-top: 10px;
+}
+.btn-order{
+	padding: 10px;
+	background-color: #000;
+	color: #fff !important;
+	font-weight: 600;
+	transition: 0.4s;
+}
+.btn-order:hover{
+	border:1px solid black;
+	text-align: center;
+	background-color: #fff;
+	color: black !important;
+
 }
 .hover_div{
 	position: relative;
@@ -358,7 +390,7 @@ body.tt-transition .ptr-overlay {
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background-color: #111;
+	background-color: #fff;
 	z-index: 1;
 }
 
@@ -745,7 +777,7 @@ body.tt-magic-cursor #magic-cursor {
 	font-size: calc(24px + 1vw);
 	font-weight: bold;
 	font-weight: 600;
-	color: #FFF;
+	color: #000;
 }
 
 /* tt-Headings subtitle */
@@ -780,7 +812,7 @@ body.tt-magic-cursor #magic-cursor {
 	font-weight: bold;
 	font-weight: 700;
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #FFF;
+	-webkit-text-stroke-color: #000;
 	-webkit-text-fill-color: transparent;
 }
 
